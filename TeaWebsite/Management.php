@@ -15,6 +15,10 @@ $title = "Management";
 
 
     $content = '<h3>Welcome,</h3> 
+                <form action="EditHomePage.php">
+                <button type="submit" class="btn" name="editHomePage">Edit HomePage</button>
+                </form><br/>
+           
                 <form action="TeaAdd.php">
                 <button type="submit" class="btn" name="AddBtn">Add new Tea</button>
                 </form><br/>
