@@ -1,18 +1,30 @@
-
-<?php
-
-$title = "About";
-
-$content = '<div id="f1_container">
-<div id="f1_card" class="shadow">
-  <div class="front face">
-    <img src="Images/about2.jpg"/>
-  </div>
-  <div class="back face center">
-   <img src="Images/about.jpg"/>
+<html>
+    <head>
+        <title>About</title>
+        <script src="ckeditor/ckeditor.js"></script>
+    </head>
     
-  </div>
-</div>
-</div>';
+    <body>
+        <?php
+	// connect to database
+	$con = mysqli_connect("localhost", "root", "", "ckeditor");
+	$query = mysqli_query($con, "SELECT * FROM about_page");
+	
 
-include './Template.php';
+	while($row = mysqli_fetch_array($query))
+	{ ?>
+		
+		<?php echo $row["content"]; ?>
+		
+	
+		
+        <?php
+	}
+        ?>
+        
+    </body>
+</html>
+<?php 
+session_start(); 
+
+?>  
