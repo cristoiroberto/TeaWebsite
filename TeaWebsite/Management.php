@@ -19,6 +19,10 @@ $title = "Management";
                 <button type="submit" class="btn" name="editHomePage">Edit HomePage</button>
                 </form><br/>
            
+                <form action="EditAboutPage.php">
+                <button type="submit" class="btn" name="editAboutPage">Edit About Page</button>
+                </form><br/>
+                
                 <form action="TeaAdd.php">
                 <button type="submit" class="btn" name="AddBtn">Add new Tea</button>
                 </form><br/>
