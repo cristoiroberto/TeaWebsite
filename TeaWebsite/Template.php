@@ -1,6 +1,22 @@
+
 <!DOCTYPE html>
 
 <html>
+        <!-- js -->
+    <script src="js/jquery-1.9.1.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $( '.dropdown' ).hover(
+                function(){
+                    $(this).children('.sub-menu').slideDown(200);
+                },
+                function(){
+                    $(this).children('.sub-menu').slideUp(200);
+                }
+            );
+        }); // end ready
+    </script>
+
     <head>
         <meta charset="UTF-8">
         <title><?php echo $title; ?></title>
@@ -17,7 +33,41 @@
                    <li><a href="index.php">Home</a></li>
                    <li><a href="Tea.php">Tea</a></li>
                    <li><a href="Preorder.php">Preorder</a></li>
-                   <li><a href="Management.php">Management</a></li>
+                   <li class="dropdown">
+                    <a href="Management.php">Management</a>
+                    <ul class="sub-menu">
+                
+                   <li class="dropdown">
+                     <a href="#">Tea</a>
+                       <ul class="sub-menu">
+                           <li><a href="loginCheck/teaAddCheck.php">Add Tea</a></li>
+                           <li><a href="loginCheck/teaOverviewCheck.php">Overview</a></li>
+                        </ul>
+                   </li>
+                   
+                    <li class="dropdown">
+                     <a href="#">Preorders</a>
+                       <ul class="sub-menu">
+                           <li><a href="Preorder.php">Add Preorder</a></li>
+                          <li><a href="loginCheck/preorderOverviewCheck.php">Overview</a></li>
+                        </ul>
+                   </li>
+                   
+                 
+                   
+                      <li class="dropdown">
+                        <a href="#">Edit</a>
+                        <ul class="sub-menu">
+                            <li><a href="loginCheck/editHomePageCheck.php">Home Page</a></li>
+                            <li><a href="loginCheck/editAboutPageCheck.php">About Page</a></li>
+
+                        </ul>
+                </li>
+               
+                <li><a href="loginCheck/uploadImageCheck.php">Upload Image</a></li>
+            </ul>
+        </li>
+                 
                    <li><a href="About.php">About</a></li>
                    
                </ul>

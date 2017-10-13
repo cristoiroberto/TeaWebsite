@@ -107,6 +107,52 @@ footer{
 }
 
 
+/* sub navigation */
+#nav li ul {    
+    background-image: url(../Images/bar_background.png);
+    position:absolute;
+    left:0;
+    top:43px; /* make this equal to the line-height of the links (specified below) */
+    width:180px;
+    z-index:1000;
+}
+#nav li li {
+    position:relative;
+    margin:0;
+    display:block;
+}
+#nav li li ul {
+    position:absolute;
+    top:0;
+    left:180px; /* make this equal to the width of the sub nav above */
+    margin:0;
+}
+
+
+
+/* style sub level links */
+#nav li li a {
+    border-bottom:1px solid #E3E3E3;
+    margin:10px 10px;
+    padding:0;
+}
+#nav li li:last-child a {
+    border-bottom:none;
+}
+
+/* hide sub menu links */
+#ul.sub-menu {
+    display:none;
+}
+
+/* show arrows for dropdowns */
+
+#nav li li.dropdown > a {
+    background-image:url('../Images/arrow-right.png');
+    background-position:right 10px;
+    background-repeat:no-repeat;
+}
+
 .btn {
 	padding: 10px;
 	font-size: 15px;
