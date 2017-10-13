@@ -24,7 +24,3 @@
         
     </body>
 </html>
-<?php 
-session_start(); 
-
-?>  
