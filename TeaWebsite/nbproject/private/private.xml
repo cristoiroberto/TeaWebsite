@@ -6,8 +6,10 @@
             <file>file:/C:/wamp64/www/TeaWebsite/loginCheck/teaOverviewCheck.php</file>
             <file>file:/C:/wamp64/www/TeaWebsite/Controller/TeaController.php</file>
             <file>file:/C:/wamp64/www/TeaWebsite/loginCheck/preorderOverviewCheck.php</file>
+            <file>file:/C:/wamp64/www/TeaWebsite/Tea.php</file>
             <file>file:/C:/wamp64/www/TeaWebsite/index.php</file>
             <file>file:/C:/wamp64/www/TeaWebsite/loginCheck/editHomePageCheck.php</file>
+            <file>file:/C:/wamp64/www/TeaWebsite/About.php</file>
             <file>file:/C:/wamp64/www/TeaWebsite/Template.php</file>
             <file>file:/C:/wamp64/www/TeaWebsite/Management.php</file>
             <file>file:/C:/wamp64/www/TeaWebsite/RegisterUser.php</file>
@@ -17,6 +19,7 @@
             <file>file:/C:/wamp64/www/TeaWebsite/EditHomePage.php</file>
             <file>file:/C:/wamp64/www/TeaWebsite/loginCheck/editAboutPageCheck.php</file>
             <file>file:/C:/wamp64/www/TeaWebsite/TeaOverview.php</file>
+            <file>file:/C:/wamp64/www/TeaWebsite/Preorder.php</file>
         </group>
     </open-files>
 </project-private>

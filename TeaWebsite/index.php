@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title></title>
+        <title>Home</title>
         <script src="ckeditor/ckeditor.js"></script>
     </head>
     
