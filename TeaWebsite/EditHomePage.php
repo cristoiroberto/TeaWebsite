@@ -21,7 +21,7 @@ if(isset($_GET["delete"]))
         <link rel="stylesheet" type="text/css" href="Styles/Stylesheet.css" />
     </head>
     <body>
-           
+           <li><a href="index.php">Home</a></li>
            <div id="content_area">
                <?php echo $content; ?>
            </div>
